@@ -4,7 +4,7 @@ CXXFLAGS = -Wall -std=c++17 -I. -I./src
 SRCDIR = src
 BUILDDIR = build
 BINDIR = bin
-TARGET = deauth
+TARGET = deauth-attack
 
 # src/*.cpp 전체 탐색
 SOURCES = $(wildcard $(SRCDIR)/*.cpp)
